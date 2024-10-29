@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Message</title>
+  <link rel="stylesheet" href="message.css">
+</head>
+<body>
+  <div class="container" id="popup">
+    <div class="main">
+      <header>
+        <img src="x.png" alt="cancel" id="cancel" onclick="closePopup()">
+        <h1>ENJOY 20% OFF</h1>
+        <h5>SignUp for our newsletter and GET 20% OFF your first order </h5>
+        <input type="email" id="email" placeholder="ENETR YOUR MAIL">
+      </header>
+      <section>
+        <p id="Shopping">I'm Shopping for</p>
+        <div class="input">
+        <input type="radio" > Male
+        <input type="radio" > Female
+        <input type="radio" > Prefer not to say
+      </div>
+        <h3>My Birthday</h3>
+        <select>
+          <option id="Year">Year</option>
+        </select>
+        <select>
+          <option id="Month">Month</option>
+        </select>
+        <select>
+          <option id="Day">Day</option>
+        </select>
+        <div class="checkbox">
+        <div class="check"> 
+        <input type="checkbox"><p> Yes, I want to learn about the latest special offer,product drops and more through personalised ads on digital,
+        media platform like google, facebook by using my male address.  
+        </p>
+      </div>
+      <div class="check-box">
+          <p>***By clicking on the sign me up button, you are agree to receive marketing email from Austria PUMA Dealer GmbH and 
+          confirm you are atleast 16yeras Old. You can unsubscrip anytime free of charge. To improve your experience we will 
+          process your data Across your device to better personalise email we send you.
+          </p>
+        </div>
+        </div>
+          <button>SignUp</button>
+      </section>
+      <footer>
+        <p>Data Protection Information</p>
+      </footer>
+  </div>
+</div>
+<script>
+  // Function to close the popup
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+</script>
+</body>
+</html>
